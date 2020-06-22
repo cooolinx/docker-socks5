@@ -19,7 +19,7 @@ func getenv(key, def string) string {
 
 func main() {
     host := getenv("PROXY_HOST", "0.0.0.0")
-    port := getenv("PROXY_PORT", "1081")
+    port := getenv("PROXY_PORT", "1080")
     user := getenv("PROXY_USER", "")
     pass := getenv("PROXY_PASS", "")
 

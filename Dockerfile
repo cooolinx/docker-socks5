@@ -8,5 +8,5 @@ RUN go env -w GO111MODULE=on && \
 
 FROM scratch
 COPY --from=build /app/socks5 /socks5
-EXPOSE 1081
+EXPOSE 1080
 ENTRYPOINT ["/socks5"]
