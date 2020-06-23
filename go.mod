@@ -1,4 +1,4 @@
-module github.com/fallenlord/socks5-docker
+module github.com/fallenlord/docker-socks5
 
 go 1.14
 
